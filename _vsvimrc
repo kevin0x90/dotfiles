@@ -1,0 +1,31 @@
+set nobackup
+set nowritebackup
+set noswapfile
+
+set number
+set nowrap
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set softtabstop=2
+
+set cursorline
+
+autocmd BufWritePre * :%s/\ \+$//e
+
+let mapleader = ","
+
+inoremap jj <Esc>
+
+noremap <Leader>l :set list!<CR>
+noremap <Leader>n <Esc>:tabprevious<CR>
+noremap <Leader>m <Esc>:tabnext<CR>
+
+noremap <Leader>c :vsc ReSharper_SilentCleanupCode<CR>
+
+noremap <c-j> <c-w>j
+noremap <c-k> <c-w>k
+noremap <c-l> <c-l>l
+noremap <c-h> <c-h>h
+
+vnoremap <Leader>s :sort<CR>

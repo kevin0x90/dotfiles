@@ -1,0 +1,32 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "editor.renderWhitespace": "all",
+    "editor.trimAutoWhitespace": true,
+    "editor.renderIndentGuides": true,
+    "editor.formatOnType": true,
+    "vim.leader": ",",
+    "vim.insertModeKeyBindings": [
+       {
+           "before": ["j", "j"],
+           "after": ["<Esc>"]
+       }
+    ],
+    "files.trimTrailingWhitespace": true,
+    "vim.disableAnnoyingGcMessage": true,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.useCtrlKeys": false,
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.easymotion": true,
+    "vim.useSystemClipboard": true,
+    "vim.visualstar": true,
+    "vim.ignorecase": true,
+    "vim.smartcase": true,
+    "files.autoSave": "afterDelay",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "workbench.colorTheme": "Braver's Solarized Dark"
+}
