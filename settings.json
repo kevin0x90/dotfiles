@@ -1,6 +1,4 @@
-// Place your settings in this file to overwrite the default settings
 {
-    "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
     "editor.renderWhitespace": "all",
     "editor.trimAutoWhitespace": true,
     "editor.renderIndentGuides": true,
