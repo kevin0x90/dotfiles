@@ -5,5 +5,6 @@ nnoremap <LEADER>gd :action GotoImplementation<CR>
 nnoremap <LEADER>oi :action OptimizeImports<CR>
 nnoremap <LEADER>fu :action FindUsages<CR>
 nnoremap <LEADER>nf :action NewFile<CR>
-nnoremap <LEADER>rc :action ReformatCode<CR>
+nnoremap <LEADER>c :action ReformatCode<CR>
 nnoremap <LEADER>fs :action ActivateStructureToolWindow<CR>
+nnoremap <LEADER>p :action QuickImplementations<CR>
