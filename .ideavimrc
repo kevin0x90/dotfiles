@@ -8,3 +8,4 @@ nnoremap <LEADER>nf :action NewFile<CR>
 nnoremap <LEADER>c :action ReformatCode<CR>
 nnoremap <LEADER>fs :action ActivateStructureToolWindow<CR>
 nnoremap <LEADER>p :action QuickImplementations<CR>
+nnoremap <LEADER>r :action RenameElement<CR>
