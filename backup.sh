@@ -38,6 +38,7 @@ fi
 
 if [[ ! -e "/dev/disk/by-label/f$BACKUP_DISK_LABEL" ]]; then
     echo "Backup disk $BACKUP_DISK_LABEL not connected, skipping backup!"
+    exit 0
 fi
 
 rsync -aAXv / --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found"} /run/media/k3v1n/fedora-backup/thinkpadl470
