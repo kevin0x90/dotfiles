@@ -36,7 +36,7 @@ if [[ "$#" -ge 1 && "$1" == "--install" ]]; then
     exit 0
 fi
 
-if [[ ! -e "/dev/disk/by-label/f$BACKUP_DISK_LABEL" ]]; then
+if [[ ! -e "/dev/disk/by-label/$BACKUP_DISK_LABEL" ]]; then
     echo "Backup disk $BACKUP_DISK_LABEL not connected, skipping backup!"
     exit 0
 fi
