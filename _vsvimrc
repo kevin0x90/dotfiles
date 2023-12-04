@@ -21,7 +21,10 @@ noremap <Leader>l :set list!<CR>
 noremap <Leader>n <Esc>:tabprevious<CR>
 noremap <Leader>m <Esc>:tabnext<CR>
 
-noremap <Leader>c :vsc ReSharper_SilentCleanupCode<CR>
+noremap <Leader>c :vsc Edit.FormatDocument<CR>
+noremap <Leader>fu :vsc Edit.FindAllReferences<CR>
+noremap <Leader>gd :vsc Edit.GoToDefinition<CR>
+noremap <Leader>oi :vsc EditorContextMenus.CodeWindow.RemoveAndSort<CR>
 
 noremap <c-j> <c-w>j
 noremap <c-k> <c-w>k
