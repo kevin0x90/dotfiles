@@ -25,6 +25,7 @@ noremap <Leader>c :vsc Edit.FormatDocument<CR>
 noremap <Leader>fu :vsc Edit.FindAllReferences<CR>
 noremap <Leader>gd :vsc Edit.GoToDefinition<CR>
 noremap <Leader>oi :vsc EditorContextMenus.CodeWindow.RemoveAndSort<CR>
+noremap <Leader>em :vsc Refactor.ExtractMethod<CR>
 
 noremap <c-j> <c-w>j
 noremap <c-k> <c-w>k
