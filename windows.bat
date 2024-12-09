@@ -1,1 +1,1 @@
-winget install Microsoft.PowerToys --source winget
+winget import wingetpackages
