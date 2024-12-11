@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-09T21:58:30.185-00:00",
+	"CreationDate" : "2024-12-11T22:19:29.521-00:00",
 	"Sources" : 
 	[
 		{
@@ -52,6 +52,9 @@
 					"PackageIdentifier" : "MiKTeX.MiKTeX"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VisualStudio.Locator"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.OneDrive"
 				},
 				{
@@ -59,6 +62,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+				{
+					"PackageIdentifier" : "Canonical.Ubuntu.2404"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Teams"
@@ -80,6 +86,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WSL"
 				}
 			],
 			"SourceDetails" : 
